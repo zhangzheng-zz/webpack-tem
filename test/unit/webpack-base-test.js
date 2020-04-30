@@ -6,6 +6,6 @@ describe('webpack.base.config.js test case', () => {
 
   // console.log(baseConfig)
   it('entry', () => {
-    assert.equal(baseConfig.entry.search, 'D:/web/learning/webpack-tem/test/smoke/template/src/search/index.js')
+    assert.equal(baseConfig.entry.search.indexOf('webpack-tem/test/smoke/template/src/search/index.js'), true)
   })
 })
