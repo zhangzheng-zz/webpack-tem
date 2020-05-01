@@ -6,7 +6,8 @@
   "scripts": {
     "eslint": "eslint ./lib --fix",
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
   },
   "keywords": [],
   "author": "zhangzheng",
@@ -22,7 +23,7 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "glob-all": "^3.2.1",
-    "husky": "^4.2.5",
+    "husky": "^1.1.4",
     "istanbul": "^1.0.0-alpha.2",
     "mocha": "^7.1.2",
     "rimraf": "^3.0.2"
